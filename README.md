@@ -16,4 +16,16 @@ ng generate component hello-world
 
 D:\TSA\ng-hello-world-lib\sv-angular-workspace>
 ng build
+
+
+```
+
+```json
+"repository": {
+    "type": "git",
+    "url": "https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/ng-hello-world-lib.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 ```
