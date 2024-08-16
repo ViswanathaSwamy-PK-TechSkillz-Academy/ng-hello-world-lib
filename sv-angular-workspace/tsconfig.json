@@ -14,6 +14,9 @@
     "paths": {
       "my-simple-lib": [
         "./dist/my-simple-lib"
+      ],
+      "simple-nglibs": [
+        "./dist/simple-nglibs"
       ]
     },
     "esModuleInterop": true,
