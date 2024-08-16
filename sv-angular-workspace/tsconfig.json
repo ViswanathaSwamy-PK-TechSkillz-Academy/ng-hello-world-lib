@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "my-simple-lib": [
+        "./dist/my-simple-lib"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
