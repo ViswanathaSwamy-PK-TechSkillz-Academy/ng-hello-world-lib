@@ -7,5 +7,5 @@ I am learning to create Angular Library from different Video Courses, Books, and
 ```powershell
 PS D:\TSA\ng-hello-world-lib> ng new sv-angular-workspace --create-application=false
 
-D:\TSA\ng-hello-world-lib\sv-angular-workspace> ng generate library my-simple-lib
+D:\TSA\ng-hello-world-lib\sv-angular-workspace> ng generate library simple-nglibs
 ```
