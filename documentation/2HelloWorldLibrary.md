@@ -119,3 +119,100 @@ To use this library in an Angular application:
 ### **Conclusion:**
 
 This simple Angular library contains a `HelloWorld` component that you can use in any Angular application. You can follow the deployment steps provided earlier to publish this library to GitHub Packages.
+
+## Part 2
+
+Your current directory structure looks like this:
+
+```
+ng-hello-world-lib/
+├── documentation/
+│   ├── images/
+│   ├── 1AngularWorkspace.md
+│   ├── 2HelloWorldLibrary.md
+│   └── 3Ng8Libs-GHPkgs.md
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+This structure contains a `documentation` folder with various markdown files and images, as well as some standard files like `.gitignore`, `LICENSE`, and `README.md`.
+
+### **Next Steps for Setting Up Your Angular Library:**
+
+Since you've already initialized your GitHub repository and added some documentation files, you can proceed with the following steps:
+
+1. **Create the Angular Workspace:**
+
+   - Navigate to the root of your project (`ng-hello-world-lib/`) and create the Angular workspace:
+     ```bash
+     ng new my-angular-workspace --create-application=false
+     ```
+   - This will add the Angular workspace structure within your existing repository.
+
+2. **Generate the Library:**
+
+   - Move into the newly created Angular workspace directory:
+     ```bash
+     cd my-angular-workspace
+     ```
+   - Generate your library:
+     ```bash
+     ng generate library my-simple-lib
+     ```
+
+3. **Add the `HelloWorld` Component:**
+
+   - Navigate to the library folder and generate the `HelloWorld` component:
+     ```bash
+     cd projects/my-simple-lib/src/lib/
+     ng generate component hello-world
+     ```
+
+4. **Modify Files as Necessary:**
+
+   - Update the component and module files as per the previous instructions.
+
+5. **Commit Your Changes:**
+   - Once everything is set up and working, commit your changes to the GitHub repository:
+     ```bash
+     git add .
+     git commit -m "Initial setup of Angular workspace and HelloWorld library"
+     git push origin main
+     ```
+
+Your updated directory structure after these steps will look like this:
+
+```
+ng-hello-world-lib/
+├── documentation/
+│   ├── images/
+│   ├── 1AngularWorkspace.md
+│   ├── 2HelloWorldLibrary.md
+│   └── 3Ng8Libs-GHPkgs.md
+├── my-angular-workspace/
+│   ├── projects/
+│   │   └── my-simple-lib/
+│   │       ├── src/
+│   │       │   ├── lib/
+│   │       │   │   ├── hello-world/
+│   │       │   │   │   ├── hello-world.component.ts
+│   │       │   │   │   ├── hello-world.component.html
+│   │       │   │   │   ├── hello-world.component.css
+│   │       │   │   │   └── hello-world.component.spec.ts
+│   │       │   │   └── my-simple-lib.module.ts
+│   │       │   ├── public-api.ts
+│   │       │   ├── test.ts
+│   │       │   └── index.ts
+│   │       ├── ng-package.json
+│   │       └── package.json
+│   ├── angular.json
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+Let me know if you have any questions or need further assistance!
