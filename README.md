@@ -13,4 +13,7 @@ ng generate library simple-nglibs
 
 PS D:\TSA\ng-hello-world-lib\sv-angular-workspace\projects\simple-nglibs\src\lib>
 ng generate component hello-world
+
+D:\TSA\ng-hello-world-lib\sv-angular-workspace>
+ng build
 ```
