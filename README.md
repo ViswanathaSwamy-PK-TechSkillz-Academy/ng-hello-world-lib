@@ -15,7 +15,7 @@ PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
 ng generate component helloworld-h1
 ```
 
-> Modifie the component
+> Modified the component
 
 ```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
