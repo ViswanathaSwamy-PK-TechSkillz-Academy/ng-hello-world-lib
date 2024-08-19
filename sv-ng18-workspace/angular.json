@@ -1,0 +1,40 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "hw-nglib": {
+      "projectType": "library",
+      "root": "projects/hw-nglib",
+      "sourceRoot": "projects/hw-nglib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/hw-nglib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/hw-nglib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/hw-nglib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/hw-nglib/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

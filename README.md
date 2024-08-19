@@ -2,7 +2,23 @@
 
 I am learning to create Angular Library from different Video Courses, Books, and Websites.
 
-## Few Commmands
+## Few Commmands - 19-Aug-2024
+
+```powershell
+PS D:\TSA\ng-hello-world-lib>
+ng new sv-ng18-workspace --create-application=false
+
+D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
+ng generate library hw-nglib
+
+PS D:\TSA\ng-hello-world-lib\sv-angular-workspace\projects\simple-nglibs\src\lib>
+ng generate component hello-world
+
+D:\TSA\ng-hello-world-lib\sv-angular-workspace>
+ng build
+```
+
+## Few Commmands - 16-Aug-2024
 
 ```powershell
 PS D:\TSA\ng-hello-world-lib>
@@ -16,8 +32,6 @@ ng generate component hello-world
 
 D:\TSA\ng-hello-world-lib\sv-angular-workspace>
 ng build
-
-
 ```
 
 ```json
