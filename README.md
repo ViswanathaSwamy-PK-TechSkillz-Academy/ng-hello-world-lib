@@ -4,24 +4,30 @@ I am learning to create Angular Library from different Video Courses, Books, and
 
 ## Few Commmands - 19-Aug-2024
 
+> 1. Create a new workspace
+
 ```powershell
 PS D:\TSA\ng-hello-world-lib>
 ng new sv-ng18-workspace --create-application=false
 ```
+
+> 1. Create a new library
 
 ```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng generate library hw-nglib
 ```
 
+> 1. Create a new component
+
 ```powershell
 PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
 ng generate component helloworld-h1
 ```
 
-> Modified the component
-> Export the HelloWorld Component
-> Build the Library
+> 1. Modified the component
+> 1. Export the HelloWorld Component
+> 1. Build the Library
 
 ```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
