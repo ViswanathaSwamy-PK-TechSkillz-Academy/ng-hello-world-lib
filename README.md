@@ -7,22 +7,26 @@ I am learning to create Angular Library from different Video Courses, Books, and
 ```powershell
 PS D:\TSA\ng-hello-world-lib>
 ng new sv-ng18-workspace --create-application=false
+```
 
+```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng generate library hw-nglib
+```
 
+```powershell
 PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
 ng generate component helloworld-h1
 ```
 
 > Modified the component
+> Export the HelloWorld Component
+> Build the Library
 
 ```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng build
 ```
-
-> Export the HelloWorld Component
 
 ## Few Commmands - 16-Aug-2024
 
