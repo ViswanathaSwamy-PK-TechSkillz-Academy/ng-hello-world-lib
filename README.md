@@ -8,8 +8,8 @@ I am learning to create Angular Library from different Video Courses, Books, and
 PS D:\TSA\ng-hello-world-lib>
 ng new sv-ng18-workspace --create-application=false
 
-D:\TSA\ng-hello-world-lib\sv-angular-workspace>
-ng generate library simple-nglibs
+D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
+ng generate library hw-nglib
 
 PS D:\TSA\ng-hello-world-lib\sv-angular-workspace\projects\simple-nglibs\src\lib>
 ng generate component hello-world
