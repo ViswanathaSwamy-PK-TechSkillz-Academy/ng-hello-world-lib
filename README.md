@@ -11,12 +11,18 @@ ng new sv-ng18-workspace --create-application=false
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng generate library hw-nglib
 
-PS D:\TSA\ng-hello-world-lib\sv-angular-workspace\projects\simple-nglibs\src\lib>
-ng generate component hello-world
+PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
+ng generate component helloworld-h1
+```
 
-D:\TSA\ng-hello-world-lib\sv-angular-workspace>
+> Modified the component
+
+```powershell
+D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng build
 ```
+
+> Export the HelloWorld Component
 
 ## Few Commmands - 16-Aug-2024
 
