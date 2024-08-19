@@ -11,6 +11,8 @@ I am learning to create Angular Library from different Video Courses, Books, and
 > 1. Export the HelloWorld Component
 > 1. Build the Library
 > 1. Update `package.json`
+> 1. Log In to GitHub Packages
+> 1. Navigate to the `dist` folder and publish the package
 
 ```powershell
 PS D:\TSA\ng-hello-world-lib>
@@ -24,6 +26,11 @@ ng generate component helloworld-h1
 
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng build
+
+npm login --registry=https://npm.pkg.github.com/
+
+D:\TSA\ng-hello-world-lib\sv-ng18-workspace\dist\hw-nglib>
+npm publish
 ```
 
 ### package.json
@@ -37,6 +44,10 @@ ng build
     "registry": "https://npm.pkg.github.com"
   }
 ```
+
+## Create the Sample Application to use the library
+
+> 1. 
 
 ## Few Commmands - 16-Aug-2024
 
