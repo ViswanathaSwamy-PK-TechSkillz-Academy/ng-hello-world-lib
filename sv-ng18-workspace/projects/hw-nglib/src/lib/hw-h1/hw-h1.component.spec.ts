@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HelloworldH1Component } from './helloworld-h1.component';
+import { HwH1Component } from './hw-h1.component';
 
-describe('HelloworldH1Component', () => {
-  let component: HelloworldH1Component;
-  let fixture: ComponentFixture<HelloworldH1Component>;
+describe('HwH1Component', () => {
+  let component: HwH1Component;
+  let fixture: ComponentFixture<HwH1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HelloworldH1Component]
+      imports: [HwH1Component]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HelloworldH1Component);
+    fixture = TestBed.createComponent(HwH1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

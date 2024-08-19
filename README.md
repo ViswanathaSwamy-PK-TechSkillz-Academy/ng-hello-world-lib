@@ -13,7 +13,11 @@ ng generate library hw-nglib
 
 PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
 ng generate component helloworld-h1
+```
 
+> Modifie the component
+
+```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng build
 ```
