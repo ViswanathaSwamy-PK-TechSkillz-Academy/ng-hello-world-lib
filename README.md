@@ -5,33 +5,37 @@ I am learning to create Angular Library from different Video Courses, Books, and
 ## Few Commmands - 19-Aug-2024
 
 > 1. Create a new workspace
+> 1. Create a new library
+> 1. Create a new component
+> 1. Modified the component
+> 1. Export the HelloWorld Component
+> 1. Build the Library
+> 1. Update `package.json`
 
 ```powershell
 PS D:\TSA\ng-hello-world-lib>
 ng new sv-ng18-workspace --create-application=false
-```
 
-> 1. Create a new library
-
-```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng generate library hw-nglib
-```
 
-> 1. Create a new component
-
-```powershell
 PS D:\TSA\ng-hello-world-lib\sv-ng18-workspace\projects\hw-nglib\src\lib>
 ng generate component helloworld-h1
-```
 
-> 1. Modified the component
-> 1. Export the HelloWorld Component
-> 1. Build the Library
-
-```powershell
 D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng build
+```
+
+### package.json
+
+```json
+"repository": {
+    "type": "git",
+    "url": "https://github.com/ViswanathaSwamy-PK-TechSkillz-Academy/ng-hello-world-lib.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 ```
 
 ## Few Commmands - 16-Aug-2024
