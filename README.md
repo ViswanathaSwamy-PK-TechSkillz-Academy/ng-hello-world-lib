@@ -47,7 +47,7 @@ npm publish
 
 ## Create the Sample Application to use the library
 
-> 1. 
+> 1.
 
 ## Few Commmands - 16-Aug-2024
 
