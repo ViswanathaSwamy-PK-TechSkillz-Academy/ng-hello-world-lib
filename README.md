@@ -22,6 +22,8 @@ D:\TSA\ng-hello-world-lib\sv-ng18-workspace>
 ng build
 ```
 
+> Export the HelloWorld Component
+
 ## Few Commmands - 16-Aug-2024
 
 ```powershell
