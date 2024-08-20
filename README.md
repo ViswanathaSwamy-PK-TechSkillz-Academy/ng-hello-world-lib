@@ -47,7 +47,12 @@ npm publish
 
 ## Create the Sample Application to use the library
 
-> 1.
+> 1. Create a new folder called `test-apps`
+> 1. Create a new Angular 18 appliation
+
+```powershell
+ng new hwh1-sampleapp --standalone --skip-tests --routing false --style css
+```
 
 ## Few Commmands - 16-Aug-2024
 
